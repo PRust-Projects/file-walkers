@@ -4,7 +4,15 @@ version = "0.1.0"
 authors = ["Patrick Chan <patrickchan1999@gmail.com>"]
 edition = "2018"
 
+[dev-dependencies]
+criterion = "0.2"
+
 [dependencies]
 crossbeam-channel = "0.3"
 ignore = "0.4"
 walkdir = "2"
+
+[[bench]]
+name = "walk"
+path = "bench/walk.rs"
+harness = false
