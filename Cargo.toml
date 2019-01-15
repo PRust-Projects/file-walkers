@@ -1,0 +1,8 @@
+[package]
+name = "file-walkers"
+version = "0.1.0"
+authors = ["Patrick Chan <patrickchan1999@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+walkdir = "2"
