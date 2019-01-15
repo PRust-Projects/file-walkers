@@ -58,8 +58,8 @@ mod tests {
         let files = get_files(crate_dir.to_str().unwrap());
         assert_eq!(
             files.len(),
-            574,
-            "Expected 574 files, but found {} files",
+            577,
+            "Expected 577 files, but found {} files",
             files.len()
         );
     }
@@ -86,8 +86,8 @@ mod tests {
         let files_and_directories = get_files_and_directories(crate_dir.to_str().unwrap());
         assert_eq!(
             files_and_directories.len(),
-            635,
-            "Expected 635 files and directories, but found {} files and directories",
+            638,
+            "Expected 638 files and directories, but found {} files and directories",
             files_and_directories.len()
         );
     }
